@@ -76,7 +76,7 @@ namespace MobileUISpecTestFramework
             "5.0.2" : ConfigurationManager.AppSettings["PlatformVersion"].ToString();
 
             App_Path = ConfigurationManager.AppSettings["App_Path"] == null ?
-            Environment.CurrentDirectory + @"\MCM_CareHub-1.2.0.89-qa-release.apk" : ConfigurationManager.AppSettings["App_Path"].ToString();
+            Environment.CurrentDirectory + @"\App-1.2.0.89-qa-release.apk" : ConfigurationManager.AppSettings["App_Path"].ToString();
 
             DeviceName = ConfigurationManager.AppSettings["DeviceName"] == null ?
             String.Empty : ConfigurationManager.AppSettings["DeviceName"].ToString();
